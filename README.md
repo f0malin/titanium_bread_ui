@@ -21,7 +21,7 @@ main.open();
 
 ## 文档
 
-### NavigationView 导航容易
+### NavigationView 导航容器
 
 导航容器只要你给他一个区域（它实际上是一个view），就可以往这个区域push和pop views。支持右进右出效果，并且当view进入是，会触发前一个view的hide事件和后一个view的show事件，使得每个view的show/hide事件可以成对，方便集成友盟等统计。
 
