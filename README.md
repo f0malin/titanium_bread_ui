@@ -19,7 +19,7 @@ main.open();
 
 更多的请参考app.js以及后面的文档，组件会不断地增加。
 
-###### 小技巧：要去除android的actionbar，只需将tiapp.xml中的navbar-hidden改成false就行：
+*小技巧：要去除android的actionbar，只需将tiapp.xml中的navbar-hidden改成false就行：*
 
 ```xml
 <navbar-hidden>true</navbar-hidden>
