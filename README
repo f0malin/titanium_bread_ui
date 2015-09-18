@@ -3,7 +3,7 @@
 Clone本仓库后得到的是一个Titanium项目，其中包含组件库和外面的一些示例。直接编译运行即可看到演示效果。
 
 使用本库只需将Resourcs/bread目录拷贝到你项目中的Resources目录里即可。（Alloy项目需拷贝到app/lib目录下。）然后requirej进来，并调用相应地方法创建组件并使用即可：
-
+```js
 var ui = require("bread/ui");
 var nav = ui.createNavigationView();
 var win1 = Ti.UI.createView({backgroundColor: "red"});
@@ -12,3 +12,4 @@ nav.openView(win1);
 var main = Ti.UI.createWindow();
 main.add(nav);
 main.open();
+```
